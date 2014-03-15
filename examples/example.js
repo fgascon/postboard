@@ -7,12 +7,10 @@ var data = {};
 
 app.use(postboard({
   get: function(name, callback){
-    console.log(data);
     callback(null, data[name]);
   },
   set: function(name, value, callback){
     data[name] = value;
-    console.log(data);
     callback();
   }
 }));

@@ -18,5 +18,8 @@
   "homepage": "https://github.com/fgascon/postboard",
   "devDependencies": {
     "express": "^3.4.8"
+  },
+  "dependencies": {
+    "q": "^1.0.1"
   }
 }
